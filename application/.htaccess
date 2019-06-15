@@ -5,17 +5,15 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 
-RewriteRule ^home?$ index.php
-RewriteRule ^kontak?$ kontak.php
-RewriteRule ^petunjuk?$ petunjuk.php
+RewriteRule ^home?$ index.html
+RewriteRule ^kontak?$ kontak.html
+RewriteRule ^petunjuk?$ petunjuk.html
 
-RewriteRule ^kategori/Anak?$ kategori/anak.php
-RewriteRule ^kategori/DuniaUsaha?$ kategori/duniaUsaha.php
-RewriteRule ^kategori/PendidikanAntiKorupsi?$ kategori/pendidikanAntiKorupsi.php
-RewriteRule ^kategori/Politik?$ kategori/politik.php
-RewriteRule ^kategori/Umum?$ kategori/umum.php
+RewriteRule ^kategori/Anak?$ kategori/anak.html
+RewriteRule ^kategori/DuniaUsaha?$ kategori/duniaUsaha.html
+RewriteRule ^kategori/PendidikanAntiKorupsi?$ kategori/pendidikanAntiKorupsi.html
+RewriteRule ^kategori/Politik?$ kategori/politik.html
+RewriteRule ^kategori/Umum?$ kategori/umum.html
 
-RewriteRule ^kategori/PendidikanDasarDanMenengah?$ kategori/panduanPendidikanAntikorupsi/dasarMenengah.php
-RewriteRule ^kategori/Pendidikantinggi?$ kategori/panduanPendidikanAntikorupsi/tinggi.php
-
-RewriteRule ^admin/kpk?$ admin/index.php
+RewriteRule ^kategori/PendidikanDasarDanMenengah?$ kategori/panduanPendidikanAntikorupsi/dasarMenengah.html
+RewriteRule ^kategori/Pendidikantinggi?$ kategori/panduanPendidikanAntikorupsi/tinggi.html
