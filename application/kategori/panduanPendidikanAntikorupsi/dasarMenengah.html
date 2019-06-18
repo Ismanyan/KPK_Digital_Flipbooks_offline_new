@@ -205,22 +205,22 @@
               <!-- First -->
               <div class="covers">
                 <div class="thumb book-1">
-                  <a href="#">
+                  <a href="#" data-toggle="modal" data-target="#D-99ModelPembelajaranAntikorupsi">
                     <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/99+1 Model Pembelajaran Antikorupsi/cover.jpg">
                   </a>
                 </div>
                 <div class="thumb book-1">
-                  <a href="#">
+                  <a href="#" data-toggle="modal" data-target="#D-InsersiPendidikanAntikorupsiMelaluiMataPelajaranPPKn">
                     <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Insersi Pendidikan Antikorupsi Melalui Mata Pelajaran PPKn/cover.jpg">
                   </a>
                 </div>
                 <div class="thumb book-1">
-                  <a href="#">
+                  <a href="#" data-toggle="modal" data-target="#D-ModulPenguatanNilaiAntikorupsiTingkatSMP">
                     <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai Antikorupsi Tingkat SMP/cover.png">
                   </a>
                 </div>
                 <div class="thumb book-1">
-                  <a href="#">
+                  <a href="#" data-toggle="modal" data-target="#D-ModulPenguatanNilaiAntikorupsipadaSDKelas4-6">
                     <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SD _ MI Kelas 4-6/cover.png">
                   </a>
                 </div>
@@ -229,12 +229,12 @@
               <!-- Second -->
               <div class="covers">
                 <div class="thumb book-1">
-                  <a href="#">
+                  <a href="#" data-toggle="modal" data-target="#D-ModulPenguatanNilaiAntikorupsipadaPendidikandasardanMenengahTingkatSMA">
                     <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SMA/cover.png">
                   </a>
                 </div>
                 <div class="thumb book-1">
-                  <a href="#">
+                  <a href="#" data-toggle="modal" data-target="#D-ModulPenguatanNilai_NilaiAntikorupsiSD_MIKelas1_3">
                     <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/ModulPenguatanNilai_NilaiAntikorupsiSD_MI Kelas1_3/cover.png">
                   </a>
                 </div>
@@ -251,17 +251,44 @@
         <div class="row justify-content-center">
           <div class="col-md-12">
             <div class="bookshelf">
+              <!-- First -->
               <div class="covers">
-              <?php $a = 0; foreach($pendidikan_anti_korupsi as $an): ?>
                 <div class="thumb book-1">
-                  <a href="#" data-toggle="modal" data-id="<?= $an['id'] ?>" data-target="#modalPdf" class="PdfModalClick">
-                    <img class="img-thumbnail" src="../<?= $an['pdf_thumb'] ?>">
+                  <a href="#" data-toggle="modal" data-target="#D-99ModelPembelajaranAntikorupsi">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/99+1 Model Pembelajaran Antikorupsi/cover.jpg">
                   </a>
                 </div>
-                  <?php if(++$a % 3 == 0 || $a == count($pendidikan_anti_korupsi)): ?>
-                    <img class="shelf-img" src="../images/rak.png" style="margin-top: 0;">
-                  <?php endif; ?>
-                <?php endforeach; ?>
+                <div class="thumb book-1">
+                  <a href="#" data-toggle="modal" data-target="#D-InsersiPendidikanAntikorupsiMelaluiMataPelajaranPPKn">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Insersi Pendidikan Antikorupsi Melalui Mata Pelajaran PPKn/cover.jpg">
+                  </a>
+                </div>
+                <div class="thumb book-1">
+                  <a href="#" data-toggle="modal" data-target="#D-ModulPenguatanNilaiAntikorupsiTingkatSMP">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai Antikorupsi Tingkat SMP/cover.png">
+                  </a>
+                </div>
+                <img class="shelf-img" src="../images/rak.png" style="margin-top: 0;">
+              </div>
+              <!-- Second -->
+              <div class="covers">
+                <div class="thumb book-1">
+                  <a href="#" data-toggle="modal" data-target="#D-ModulPenguatanNilaiAntikorupsipadaSDKelas4-6">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SD _ MI Kelas 4-6/cover.png">
+                  </a>
+                </div>
+                <div class="thumb book-1">
+                  <a href="#" data-toggle="modal" data-target="#D-ModulPenguatanNilaiAntikorupsipadaPendidikandasardanMenengahTingkatSMA">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SMA/cover.png">
+                  </a>
+                </div>
+                <div class="thumb book-1">
+                  <a href="#" data-toggle="modal" data-target="#D-ModulPenguatanNilai_NilaiAntikorupsiSD_MIKelas1_3">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/ModulPenguatanNilai_NilaiAntikorupsiSD_MI Kelas1_3/cover.png">
+                  </a>
+                </div>
+                <img class="shelf-img" src="../images/rak.png" style="margin-top: 0;">
+              </div>
             </div>
           </div>
         </div>
@@ -274,13 +301,37 @@
           <div class="col-md-12">
             <div class="bookshelf">
               <div class="covers">
-              <?php $a = 0; foreach($pendidikan_anti_korupsi as $an): ?>
-                <div class="thumb book-1 mb-5">
-                  <a href="#" data-toggle="modal" data-id="<?= $an['id'] ?>" data-target="#modalPdf" class="PdfModalClick">
-                    <img class="img-thumbnail" src="../<?= $an['pdf_thumb'] ?>">
+                <div class="thumb book-1 mb-2">
+                  <a href="#" data-toggle="modal" data-target="#D-99ModelPembelajaranAntikorupsi">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/99+1 Model Pembelajaran Antikorupsi/cover.jpg">
                   </a>
                 </div>
-                <?php endforeach; ?>
+                <div class="thumb book-1 mb-2">
+                  <a href="#" data-toggle="modal" data-target="#D-InsersiPendidikanAntikorupsiMelaluiMataPelajaranPPKn">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Insersi Pendidikan Antikorupsi Melalui Mata Pelajaran PPKn/cover.jpg">
+                  </a>
+                </div>
+                <div class="thumb book-1 mb-2">
+                  <a href="#" data-toggle="modal" data-target="#D-ModulPenguatanNilaiAntikorupsiTingkatSMP">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai Antikorupsi Tingkat SMP/cover.png">
+                  </a>
+                </div>
+                <div class="thumb book-1 mb-2">
+                  <a href="#" data-toggle="modal" data-target="#D-ModulPenguatanNilaiAntikorupsipadaSDKelas4-6">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SD _ MI Kelas 4-6/cover.png">
+                  </a>
+                </div>
+                <div class="thumb book-1 mb-2">
+                  <a href="#" data-toggle="modal" data-target="#D-ModulPenguatanNilaiAntikorupsipadaPendidikandasardanMenengahTingkatSMA">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SMA/cover.png">
+                  </a>
+                </div>
+                <div class="thumb book-1 mb-2">
+                  <a href="#" data-toggle="modal" data-target="#D-ModulPenguatanNilai_NilaiAntikorupsiSD_MIKelas1_3">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/ModulPenguatanNilai_NilaiAntikorupsiSD_MI Kelas1_3/cover.png">
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -404,8 +455,8 @@
     <!-- End Of Footer -->
 
 
-    <!-- MODAL -->
-    <div class="modal fade" id="modalPdf" tabindex="-1" role="dialog" aria-labelledby="PdfModalLabel" aria-hidden="true">
+    <!-- MODAL 99ModelPembelajaranAntikorupsi -->
+    <div class="modal fade" id="D-99ModelPembelajaranAntikorupsi" tabindex="-1" role="dialog" aria-labelledby="PdfModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-body p-0">
@@ -421,40 +472,24 @@
                   <span aria-hidden="true">&times;</span>
                 </button>
                 <br>
-                <img class="img-thumbnail" alt="pdf thumbnail" id="img-modal" style="width:100%; height: auto;">
-                <div class="row d-T text-white">
-                  <div class="col-6">
-                    <p class="p-0 m-0" id="T-unduh"></p>
-                    <p class="p-0 m-0" id="T-baca"></p>
-                  </div>
-                  <div class="col-6"><p id="T-pdfSize" class="text-right"></p></div>
-                </div>
-                <div class="row d-M text-white">
-                  <div class="col-7">
-                    <p class="p-0 m-0" id="M-unduh"></p>
-                    <p class="p-0 m-0" id="M-baca"></p>
-                  </div>
-                  <div class="col-5"><p id="M-pdfSize" class="text-right"></p></div>
-                </div>
+                <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/99+1 Model Pembelajaran Antikorupsi/cover.jpg">
               </div>
               <div class="col-sm-12 col-md-7 pdf-info">
                 <div class="info-modal">
-                  <br>
-                  <div class="row d-D text-dark">
-                    <div class="col-6">
-                      <p class="p-0 m-0" id="D-unduh"></p>
-                      <p class="p-0 m-0" id="D-baca"></p>
-                    </div>
-                    <div class="col-6"><p id="D-pdfSize" class="text-right"></p></div>
-                  </div>
-                  <p id="headModal"></p>
-                  <p id="descModal"></p>
+                  <p id="headModal">99+1 Model Pembelajaran Antikorupsi</p>
+                  <p id="descModal">
+                    Apa yang akan terjadi dengan masa depan Indonesia jika anak-anak Indonesia tumbuh menjadi pribadi yang antikorupsi? Bagaimana cara menumbuhkan kejujuran dalam diri anak/remaja/mahasiswa? Bagaimana cara menjadikan para peserta didik menjadi Gen Aksi (Generasi Antikorupsi)? Hal-hal ini menjadi sebuah mimpi yang harus diwujudkan dalam negeri ini dan kebanyakan yang berhasil mewujudkan impian tersebut adalah mereka yang memiliki visi misi kuat, ibarat sebuah kompas yang akan membantu menentukan arah yang harus dilakukan.
+                    <br/><br/>
+                    Materi dalam buku ini merupakan materi pilihan yang didapat dari lomba Inovasi Pembelajaran antikorupsi yang diadakan oleh KPK pada tahun 2014 dengan peserta guru atau tenaga pengajar disemua jenjang level pendidikan di Indonesia. Guru dan tenaga pengajar tersebut memberikan Pembelajaran kreatif= IDE + DO IT (Induksi, Diskusi, Eksplorasi, Dokumentasi, Internalisasi, Teladan) yang dapat diterapkan di lingkungan pendidikan.
+                    <br/><br/>
+                    Buku yang berisi model-model pembelajaran antikorupsi yang inovatif dan mudah ini, diharapkan dapat menjadi salah satu sumber inspirasi dan dapat diterapkan di lingkungan sekolah atau pendidikan. Sehingga akan tercipta sumber daya manusia yang membangun nilai-nilai lingkungan sekolah yang menyenangkan dan berintegritas.
+                  </p>
                   <div class="row">
                     <div class="col-6">
                       <a id="read" class="btn-modal-pdf btn btn-danger w-100 mb-3">Baca</a>
                     </div>
                     <div class="col-6">
-                      <a id="downloadPdf" href="" class="btn-modal-pdf btn btn-danger w-100 mb-3" download>Unduh</a>
+                      <a id="downloadPdf" href="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/99+1 Model Pembelajaran Antikorupsi/99+1 Model Pembelajaran Antikorupsi.pdf" class="btn-modal-pdf btn btn-danger w-100 mb-3" download>Unduh</a>
                     </div>
                   </div>
                 </div>
@@ -464,6 +499,222 @@
         </div>
       </div>
     </div>
+
+    <!-- MODAL InsersiPendidikanAntikorupsiMelaluiMataPelajaranPPKn -->
+    <div class="modal fade" id="D-InsersiPendidikanAntikorupsiMelaluiMataPelajaranPPKn" tabindex="-1" role="dialog" aria-labelledby="PdfModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="row justify-content-md-center modal-row">
+              <div class="col-sm-12 col-md-5 thumb-img">
+                <button type="button" class="close float-left d-D" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-left d-T" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-right d-M" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <br>
+                <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Insersi Pendidikan Antikorupsi Melalui Mata Pelajaran PPKn/cover.jpg">
+              </div>
+              <div class="col-sm-12 col-md-7 pdf-info">
+                <div class="info-modal">
+                  <p id="headModal">Insersi Pendidikan Antikorupsi Melalui Mata Pelajaran PPKn untuk Jenjang Pendidikan Dasar dan Menengah</p>
+                  <p id="descModal">
+                    Untuk memudahkan para Guru atau Pendidik dalam mengimplementasikan pembelajaran antikorupsi, diperlukan integrasi dengan mata pelajaran tertentu yang erat kaitannya dengan nilai-nilai antikorupsi, yaitu mata pelajaran Pendidikan Pancasila dan Kewarganegaraan (PPKn). Oleh karena itu, KPK menyusun panduan Insersi Pendidikan Antikorupsi melalui Mata Pelajaran PPKn ini sebagai pegangan bagi Guru atau Pendidik di Satuan Pendidikan Dasar dan Menengah.
+                    </br></br>
+                    Panduan ini bersifat umum untuk penguatan nilai-nilai antikorupsi di setiap jenjang pendidikan dengan pelibatan seluruh elemen agar dapat lebih memahami, menyadari, meyakini, serta mengaktualisasikan pendidikan antikorupsi dari ruang kelas, sekolah, rumah dan lingkungan. Keniscayaan akan generasi ke depan yang memiliki karakter moral sesuai nilai-nilai antikorupsi, akan terwujud jika dalam setiap proses pembelajaran tidak hanya mengajarkan tetapi juga adanya pengkondisian yang dipraktikkan secara nyata melalui sikap dan perilaku yang baik.
+                  </p>
+                  <div class="row">
+                    <div class="col-6">
+                      <a id="read" class="btn-modal-pdf btn btn-danger w-100 mb-3">Baca</a>
+                    </div>
+                    <div class="col-6">
+                      <a id="downloadPdf" href="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Insersi Pendidikan Antikorupsi Melalui Mata Pelajaran PPKn/Insersi Pendidikan Antikorupsi Melalui Mata Pelajaran PPKn.pdf" class="btn-modal-pdf btn btn-danger w-100 mb-3" download>Unduh</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL ModulPenguatanNilaiAntikorupsiTingkatSMP -->
+    <div class="modal fade" id="D-ModulPenguatanNilaiAntikorupsiTingkatSMP" tabindex="-1" role="dialog" aria-labelledby="PdfModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="row justify-content-md-center modal-row">
+              <div class="col-sm-12 col-md-5 thumb-img">
+                <button type="button" class="close float-left d-D" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-left d-T" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-right d-M" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <br>
+                <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai Antikorupsi Tingkat SMP/cover.png">
+              </div>
+              <div class="col-sm-12 col-md-7 pdf-info">
+                <div class="info-modal">
+                  <p id="headModal">Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah: Tingkat SMP/MTS</p>
+                  <p id="descModal">
+                    Modul ini disusun dengan tujuan sebagai proses pembelajaran dalam penguatan nilai-nilai antikorupsi untuk Pendidikan dasar dan Menengah: Tingkat SMP/MTS dengan pelibatan dari seluruh elemen agar lebih dapat memahami, menyadari dan menyakini serta mengaktualisasikan pendidikan antikorupsi dari ruang kelas, sekolah, rumah, serta lingkungan.
+                    </br></br>
+                    Keniscayaan akan generasi ke depan akan mempunyai karakter moral yang antikorupsi akan terwujud jika dalam setiap proses pembelajaran tidak hanya mengajarkan akan tetapi juga adanya pengkondisian yang dipraktekkan secara nyata melalui sikap dan perilaku yang baik.
+                  </p>
+                  <div class="row">
+                    <div class="col-6">
+                      <a id="read" class="btn-modal-pdf btn btn-danger w-100 mb-3">Baca</a>
+                    </div>
+                    <div class="col-6">
+                      <a id="downloadPdf" href="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai Antikorupsi Tingkat SMP/Modul Penguatan Nilai Antikorupsi Tingkat SMP.pdf" class="btn-modal-pdf btn btn-danger w-100 mb-3" download>Unduh</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL ModulPenguatanNilaiAntikorupsipadaSDKelas4-6 -->
+    <div class="modal fade" id="D-ModulPenguatanNilaiAntikorupsipadaSDKelas4-6" tabindex="-1" role="dialog" aria-labelledby="PdfModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="row justify-content-md-center modal-row">
+              <div class="col-sm-12 col-md-5 thumb-img">
+                <button type="button" class="close float-left d-D" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-left d-T" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-right d-M" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <br>
+                <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SD _ MI Kelas 4-6/cover.png">
+              </div>
+              <div class="col-sm-12 col-md-7 pdf-info">
+                <div class="info-modal">
+                  <p id="headModal">Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah: Tingkat SD/MI Kelas 4-6</p>
+                  <p id="descModal">
+                    Modul ini disusun dengan tujuan sebagai proses pembelajaran dalam penguatan nilai-nilai antikorupsi untuk Pendidikan Dasar dan Menengah: Tingkat SD/MI Kelas 4-6 dengan pelibatan dari seluruh elemen agar lebih dapat memahami, menyadari dan menyakini serta mengaktualisasikan pendidikan antikorupsi dari ruang kelas, sekolah, rumah, serta lingkungan.
+                    </br></br>
+                    Keniscayaan akan generasi ke depan akan mempunyai karakter moral yang antikorupsi akan terwujud jika dalam setiap proses pembelajaran tidak hanya mengajarkan akan tetapi juga adanya pengkondisian yang dipraktekkan secara nyata melalui sikap dan perilaku yang baik.
+                  </p>
+                  <div class="row">
+                    <div class="col-6">
+                      <a id="read" class="btn-modal-pdf btn btn-danger w-100 mb-3">Baca</a>
+                    </div>
+                    <div class="col-6">
+                      <a id="downloadPdf" href="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SD _ MI Kelas 4-6/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SD _ MI Kelas 4-6.pdf" class="btn-modal-pdf btn btn-danger w-100 mb-3" download>Unduh</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL ModulPenguatanNilaiAntikorupsipadaPendidikandasardanMenengahTingkatSMA -->
+    <div class="modal fade" id="D-ModulPenguatanNilaiAntikorupsipadaPendidikandasardanMenengahTingkatSMA" tabindex="-1" role="dialog" aria-labelledby="PdfModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="row justify-content-md-center modal-row">
+              <div class="col-sm-12 col-md-5 thumb-img">
+                <button type="button" class="close float-left d-D" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-left d-T" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-right d-M" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <br>
+                <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SMA/cover.png">
+              </div>
+              <div class="col-sm-12 col-md-7 pdf-info">
+                <div class="info-modal">
+                  <p id="headModal">Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah: Tingkat SMA/MA/SMK/MAK</p>
+                  <p id="descModal">
+                    Modul ini disusun dengan tujuan sebagai proses pembelajaran dalam penguatan nilai-nilai antikorupsi untuk Pendidikan dasar dan Menengah: Tingkat SMA/MA/SMK/MAK dengan pelibatan dari seluruh elemen agar lebih dapat memahami, menyadari dan menyakini serta mengaktualisasikan pendidikan antikorupsi dari ruang kelas, sekolah, rumah, serta lingkungan.
+                    </br></br>
+                    Keniscayaan akan generasi ke depan akan mempunyai karakter moral yang antikorupsi akan terwujud jika dalam setiap proses pembelajaran tidak hanya mengajarkan akan tetapi juga adanya pengkondisian yang dipraktekkan secara nyata melalui sikap dan perilaku yang baik.
+                  </p>
+                  <div class="row">
+                    <div class="col-6">
+                      <a id="read" class="btn-modal-pdf btn btn-danger w-100 mb-3">Baca</a>
+                    </div>
+                    <div class="col-6">
+                      <a id="downloadPdf" href="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SMA/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SMA.pdf" class="btn-modal-pdf btn btn-danger w-100 mb-3" download>Unduh</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL ModulPenguatanNilai_NilaiAntikorupsiSD_MIKelas1_3 -->
+    <div class="modal fade" id="D-ModulPenguatanNilai_NilaiAntikorupsiSD_MIKelas1_3" tabindex="-1" role="dialog" aria-labelledby="PdfModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="row justify-content-md-center modal-row">
+              <div class="col-sm-12 col-md-5 thumb-img">
+                <button type="button" class="close float-left d-D" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-left d-T" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-right d-M" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <br>
+                <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/ModulPenguatanNilai_NilaiAntikorupsiSD_MI Kelas1_3/cover.png">
+              </div>
+              <div class="col-sm-12 col-md-7 pdf-info">
+                <div class="info-modal">
+                  <p id="headModal">Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah: Tingkat SD/MI Kelas 1-3</p>
+                  <p id="descModal">
+                    Modul ini disusun dengan tujuan sebagai proses pembelajaran dalam penguatan nilai-nilai antikorupsi untuk  Pendidikan Dasar dan Menengah: Tingkat SD/MI Kelas 1-3 dengan pelibatan dari seluruh elemen agar lebih dapat memahami, menyadari dan menyakini serta mengaktualisasikan pendidikan antikorupsi dari ruang kelas, sekolah, rumah, serta lingkungan.
+                    </br></br>
+                    Keniscayaan akan generasi ke depan akan mempunyai karakter moral yang antikorupsi akan terwujud jika dalam setiap proses pembelajaran tidak hanya mengajarkan akan tetapi juga adanya pengkondisian yang dipraktekkan secara nyata melalui sikap dan perilaku yang baik.
+                  </p>
+                  <div class="row">
+                    <div class="col-6">
+                      <a id="read" class="btn-modal-pdf btn btn-danger w-100 mb-3">Baca</a>
+                    </div>
+                    <div class="col-6">
+                      <a id="downloadPdf" href="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/ModulPenguatanNilai_NilaiAntikorupsiSD_MI Kelas1_3/ModulPenguatanNilai_NilaiAntikorupsiSD_MI Kelas1_3.pdf" class="btn-modal-pdf btn btn-danger w-100 mb-3" download>Unduh</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
 
      <!--JavaScript at end of body for optimized loading-->

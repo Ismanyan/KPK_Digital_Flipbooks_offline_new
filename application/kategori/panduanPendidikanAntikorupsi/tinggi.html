@@ -205,22 +205,22 @@
               <!-- First -->
               <div class="covers">
                 <div class="thumb book-1">
-                  <a href="#">
+                  <a href="#" data-toggle="modal" data-target="#D-BukuPanduanDosenPembelajaranPendidikanAntiKorupsiUntukPerguruanTinggi">
                     <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Buku Panduan Dosen Pembelajaran Pendidikan Anti Korupsi Untuk Perguruan Tinggi/cover.png">
                   </a>
                 </div>
                 <div class="thumb book-1">
-                  <a href="#">
+                  <a href="#" data-toggle="modal" data-target="#D-IntegrityStory">
                     <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Integrity Story/cover.png">
                   </a>
                 </div>
                 <div class="thumb book-1">
-                  <a href="#">
+                  <a href="#" data-toggle="modal" data-target="#D-PendidikanAntiKorupsiuntukPerguruanTinggi">
                     <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Pendidikan Anti Korupsi untuk Perguruan Tinggi/cover.jpg">
                   </a>
                 </div>
                 <div class="thumb book-1">
-                  <a href="#">
+                  <a href="#" data-toggle="modal" data-target="#D-StrategiJituKampanyeIntegritasalaMahasiswa">
                     <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Strategi Jitu Kampanye Integritas ala Mahasiswa/cover.png">
                   </a>
                 </div>
@@ -237,17 +237,34 @@
         <div class="row justify-content-center">
           <div class="col-md-12">
             <div class="bookshelf">
+              <!-- First -->
               <div class="covers">
-              <?php $a = 0; foreach($pendidikan_anti_korupsi as $an): ?>
                 <div class="thumb book-1">
-                  <a href="#" data-toggle="modal" data-id="<?= $an['id'] ?>" data-target="#modalPdf" class="PdfModalClick">
-                    <img class="img-thumbnail" src="../<?= $an['pdf_thumb'] ?>">
+                  <a href="#" data-toggle="modal" data-target="#D-BukuPanduanDosenPembelajaranPendidikanAntiKorupsiUntukPerguruanTinggi">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Buku Panduan Dosen Pembelajaran Pendidikan Anti Korupsi Untuk Perguruan Tinggi/cover.png">
                   </a>
                 </div>
-                  <?php if(++$a % 3 == 0 || $a == count($pendidikan_anti_korupsi)): ?>
-                    <img class="shelf-img" src="../images/rak.png" style="margin-top: 0;">
-                  <?php endif; ?>
-                <?php endforeach; ?>
+                <div class="thumb book-1">
+                  <a href="#" data-toggle="modal" data-target="#D-IntegrityStory">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Integrity Story/cover.png">
+                  </a>
+                </div>
+                <div class="thumb book-1">
+                  <a href="#" data-toggle="modal" data-target="#D-PendidikanAntiKorupsiuntukPerguruanTinggi">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Pendidikan Anti Korupsi untuk Perguruan Tinggi/cover.jpg">
+                  </a>
+                </div>
+                <img class="shelf-img" src="../images/rak.png" style="margin-top: 0;">
+              </div>
+              <!-- Second -->
+              <div class="covers">
+                <div class="thumb book-1">
+                  <a href="#" data-toggle="modal" data-target="#D-StrategiJituKampanyeIntegritasalaMahasiswa">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Strategi Jitu Kampanye Integritas ala Mahasiswa/cover.png">
+                  </a>
+                </div>
+                <img class="shelf-img" src="../images/rak.png" style="margin-top: 0;">
+              </div>
             </div>
           </div>
         </div>
@@ -260,13 +277,27 @@
           <div class="col-md-12">
             <div class="bookshelf">
               <div class="covers">
-              <?php $a = 0; foreach($pendidikan_anti_korupsi as $an): ?>
-                <div class="thumb book-1 mb-5">
-                  <a href="#" data-toggle="modal" data-id="<?= $an['id'] ?>" data-target="#modalPdf" class="PdfModalClick">
-                    <img class="img-thumbnail" src="../<?= $an['pdf_thumb'] ?>">
+                <div class="thumb book-1 mb-2">
+                  <a href="#" data-toggle="modal" data-target="#D-BukuPanduanDosenPembelajaranPendidikanAntiKorupsiUntukPerguruanTinggi">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Buku Panduan Dosen Pembelajaran Pendidikan Anti Korupsi Untuk Perguruan Tinggi/cover.png">
                   </a>
                 </div>
-                <?php endforeach; ?>
+                <div class="thumb book-1 mb-2">
+                  <a href="#" data-toggle="modal" data-target="#D-IntegrityStory">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Integrity Story/cover.png">
+                  </a>
+                </div>
+                <div class="thumb book-1 mb-2">
+                  <a href="#" data-toggle="modal" data-target="#D-PendidikanAntiKorupsiuntukPerguruanTinggi">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Pendidikan Anti Korupsi untuk Perguruan Tinggi/cover.jpg">
+                  </a>
+                </div>
+                <div class="thumb book-1 mb-2">
+                  <a href="#" data-toggle="modal" data-target="#D-StrategiJituKampanyeIntegritasalaMahasiswa">
+                    <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Strategi Jitu Kampanye Integritas ala Mahasiswa/cover.png">
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -390,8 +421,8 @@
     <!-- End Of Footer -->
 
 
-    <!-- MODAL -->
-    <div class="modal fade" id="modalPdf" tabindex="-1" role="dialog" aria-labelledby="PdfModalLabel" aria-hidden="true">
+    <!-- MODAL BukuPanduanDosenPembelajaranPendidikanAntiKorupsiUntukPerguruanTinggi -->
+    <div class="modal fade" id="D-BukuPanduanDosenPembelajaranPendidikanAntiKorupsiUntukPerguruanTinggi" tabindex="-1" role="dialog" aria-labelledby="PdfModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-body p-0">
@@ -407,40 +438,153 @@
                   <span aria-hidden="true">&times;</span>
                 </button>
                 <br>
-                <img class="img-thumbnail" alt="pdf thumbnail" id="img-modal" style="width:100%; height: auto;">
-                <div class="row d-T text-white">
-                  <div class="col-6">
-                    <p class="p-0 m-0" id="T-unduh"></p>
-                    <p class="p-0 m-0" id="T-baca"></p>
-                  </div>
-                  <div class="col-6"><p id="T-pdfSize" class="text-right"></p></div>
-                </div>
-                <div class="row d-M text-white">
-                  <div class="col-7">
-                    <p class="p-0 m-0" id="M-unduh"></p>
-                    <p class="p-0 m-0" id="M-baca"></p>
-                  </div>
-                  <div class="col-5"><p id="M-pdfSize" class="text-right"></p></div>
-                </div>
+                <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Buku Panduan Dosen Pembelajaran Pendidikan Anti Korupsi Untuk Perguruan Tinggi/cover.png">
               </div>
               <div class="col-sm-12 col-md-7 pdf-info">
                 <div class="info-modal">
-                  <br>
-                  <div class="row d-D text-dark">
-                    <div class="col-6">
-                      <p class="p-0 m-0" id="D-unduh"></p>
-                      <p class="p-0 m-0" id="D-baca"></p>
-                    </div>
-                    <div class="col-6"><p id="D-pdfSize" class="text-right"></p></div>
-                  </div>
-                  <p id="headModal"></p>
-                  <p id="descModal"></p>
+                  <p id="headModal">Buku Panduan Dosen: Pembelajaran Pendidikan Anti Korupsi Untuk Perguruan Tinggi</p>
+                  <p id="descModal">
+                    Buku panduan ini berisikan panduan dosen untuk mengajarkan materi-materi yang terdapat dalam buku Pendidikan Anti Korupsi.
+                    </br></br>
+                    Buku ini merupakan kebutuhan penting untuk mewujudkan tujuan dan terlaksananya mata kuliah Pendidikan Anti Korupsi di Perguruan Tinggi.
+                  </p>
                   <div class="row">
                     <div class="col-6">
                       <a id="read" class="btn-modal-pdf btn btn-danger w-100 mb-3">Baca</a>
                     </div>
                     <div class="col-6">
-                      <a id="downloadPdf" href="" class="btn-modal-pdf btn btn-danger w-100 mb-3" download>Unduh</a>
+                      <a id="downloadPdf" href="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Buku Panduan Dosen Pembelajaran Pendidikan Anti Korupsi Untuk Perguruan Tinggi/Buku Panduan Dosen Pembelajaran Pendidikan Anti Korupsi Untuk Perguruan Tinggi.pdf" class="btn-modal-pdf btn btn-danger w-100 mb-3" download>Unduh</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL IntegrityStory -->
+    <div class="modal fade" id="D-IntegrityStory" tabindex="-1" role="dialog" aria-labelledby="PdfModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="row justify-content-md-center modal-row">
+              <div class="col-sm-12 col-md-5 thumb-img">
+                <button type="button" class="close float-left d-D" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-left d-T" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-right d-M" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <br>
+                <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Integrity Story/cover.png">
+              </div>
+              <div class="col-sm-12 col-md-7 pdf-info">
+                <div class="info-modal">
+                  <p id="headModal">Integrity Story</p>
+                  <p id="descModal">
+                    Integrity Story adalah sebuah buku yang merangkum perjalanan generasi muda khususnya mahasiswa untuk menjadi generasi muda antikorupsi. Agar perjalanan dalam terus menyerukan perlawanan terhadap korupsi terus tercatat sepanjang masa, terus dikenang dan diceritakan hingga anak-cucu, maka rekam perjalanan itu ke dalam Integrity Story. Buku ini juga berguna sebagai properti atau media tulis dalam orientasi mahasiswa baru supaya nilai-nilai antikorupsi seperti pengenalan integritas, kejujuran, keberanian dalam menyuarakan gerakan pemberantasan korupsi tertanam dalam diri mahasiswa.
+                    </br></br>
+                    Buku ini sengaja dibuat dengan konsep yang tidak biasa, karena dilandasi semangat untuk terus kreatif dan mandiri dalam bergerak.
+                  </p>
+                  <div class="row">
+                    <div class="col-6">
+                      <a id="read" class="btn-modal-pdf btn btn-danger w-100 mb-3">Baca</a>
+                    </div>
+                    <div class="col-6">
+                      <a id="downloadPdf" href="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Integrity Story/Integrity Story.pdf" class="btn-modal-pdf btn btn-danger w-100 mb-3" download>Unduh</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL PendidikanAntiKorupsiuntukPerguruanTinggi -->
+    <div class="modal fade" id="D-PendidikanAntiKorupsiuntukPerguruanTinggi" tabindex="-1" role="dialog" aria-labelledby="PdfModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="row justify-content-md-center modal-row">
+              <div class="col-sm-12 col-md-5 thumb-img">
+                <button type="button" class="close float-left d-D" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-left d-T" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-right d-M" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <br>
+                <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Pendidikan Anti Korupsi untuk Perguruan Tinggi/cover.jpg">
+              </div>
+              <div class="col-sm-12 col-md-7 pdf-info">
+                <div class="info-modal">
+                  <p id="headModal">Pendidikan Anti Korupsi untuk Perguruan Tinggi</p>
+                  <p id="descModal">
+                    Korupsi dipandang sebagai kejahatan luar biasa (extra ordinary crime) yang oleh karena itu memerlukan upaya luar biasa pula untuk memberantasnya. Upaya pemberantasan korupsi - yang terdiri dari dua bagian besar, yaitu penindakan dan pencegahan - tidak akan pernah berhasil optimal jika hanya dilakukan oleh pemerintah saja tanpa melibatkan peran serta masyarakat. Oleh karena itu tidaklah berlebihan jika mahasiswa - sebagai salah satu bagian penting dari masyarakat yang merupakan pewaris masa depan - diharapkan dapat terlibat aktif dalam upaya pemberantasan korupsi di Indonesia.
+                    </br></br>
+                    Peran aktif mahasiswa diharapkan lebih difokuskan pada upaya pencegahan korupsi dengan ikut membangun budaya antikorupsi di masyarakat. Mahasiswa diharapkan dapat berperan sebagai agen perubahan dan motor penggerak gerakan antikorupsi di masyarakat. Untuk dapat berperan aktif, mahasiswa perlu dibekali dengan pengetahuan yang cukup tentang seluk beluk korupsi dan pemberantasannya. Yang tidak kalah penting, untuk dapat berperan aktif mahasiswa harus dapat memahami dan menerapkan nilai-nilai antikorupsi dalam kehidupan sehari-hari.
+                    </br></br>
+                    Buku Ajar Pendidikan Antikorupsi ini berisikan bahan ajar dasar yang dapat dikembangkan sesuai dengan kondisi dan kebutuhan Perguruan Tinggi dan Program Studi masing-masing.
+                  </p>
+                  <div class="row">
+                    <div class="col-6">
+                      <a id="read" class="btn-modal-pdf btn btn-danger w-100 mb-3">Baca</a>
+                    </div>
+                    <div class="col-6">
+                      <a id="downloadPdf" href="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Pendidikan Anti Korupsi untuk Perguruan Tinggi/Pendidikan Anti Korupsi untuk Perguruan Tinggi.pdf" class="btn-modal-pdf btn btn-danger w-100 mb-3" download>Unduh</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL StrategiJituKampanyeIntegritasalaMahasiswa -->
+    <div class="modal fade" id="D-StrategiJituKampanyeIntegritasalaMahasiswa" tabindex="-1" role="dialog" aria-labelledby="PdfModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="row justify-content-md-center modal-row">
+              <div class="col-sm-12 col-md-5 thumb-img">
+                <button type="button" class="close float-left d-D" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-left d-T" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <button type="button" class="close float-right d-M" data-dismiss="modal" aria-label="Close" style="top: 0 !important; margin-top: -20px; margin-right:-20px;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <br>
+                <img class="img-thumbnail" src="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Strategi Jitu Kampanye Integritas ala Mahasiswa/cover.png">
+              </div>
+              <div class="col-sm-12 col-md-7 pdf-info">
+                <div class="info-modal">
+                  <p id="headModal">Strategi Kampanye Integritas Ala Mahasiswa</p>
+                  <p id="descModal">
+                    Dalam beberapa tahun terakhir, Komisi Pemberantasan Korupsi (KPK) telah mengadakan Festival Integritas Kampus atau yang lebih dikenal dengan FIK. FIK merupakan wadah yang dibangun oleh KPK dalam bentuk kampanye sosial integritas dengan tujuan mengajak kamu sebagai mahasiswa untuk berperan secara aktif dalam menyebarkan nilai-nilai integritas. FIK menjadi bentuk nyata pergerakan mahasiswa dalam upaya pencegahan korupsi melalui kegiatan kampanye sosial integritas kampus yang efektif.
+                    </br></br>
+                    Buku panduan ini dibuat oleh KPK agar kampanye sosial integritas dapat dijalankan oleh kamu sebagai mahasiswa agar mampu memberikan solusi terhadap permasalahan integritas yang ada di sekitar kamu. Semoga buku ini dapat memberikan inspirasi bagi kamu untuk melakukan perubahan sosial melalu kegiatan kampanye sosial yang akan kamu lakukan bersama teman-teman kamu di lingkungan kampus.
+                  </p>
+                  <div class="row">
+                    <div class="col-6">
+                      <a id="read" class="btn-modal-pdf btn btn-danger w-100 mb-3">Baca</a>
+                    </div>
+                    <div class="col-6">
+                      <a id="downloadPdf" href="../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Strategi Jitu Kampanye Integritas ala Mahasiswa/Strategi Jitu Kampanye Integritas ala Mahasiswa.pdf" class="btn-modal-pdf btn btn-danger w-100 mb-3" download>Unduh</a>
                     </div>
                   </div>
                 </div>
