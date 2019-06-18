@@ -95,7 +95,7 @@ $(document).ready(function () {
 
   // R-ModulPenguatanNilaiAntikorupsipadaSDKelas4-6
   $(".R-ModulPenguatanNilaiAntikorupsipadaSDKelas4-6").flipBook({
-    pdfUrl:"../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SD _ MI Kelas 4-6/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SD _ MI Kelas 4-6.pdf",
+    pdfUrl:"../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai Antikorupsi SD Kelas 4_6/Modul Penguatan Nilai Antikorupsi SD_Kelas 4_6.pdf",
     lightBox:true,
     lightBoxFullscreen:true,
     layout:3,
@@ -126,7 +126,7 @@ $(document).ready(function () {
 
   // R-ModulPenguatanNilaiAntikorupsipadaPendidikandasardanMenengahTingkatSMA
   $(".R-ModulPenguatanNilaiAntikorupsipadaPendidikandasardanMenengahTingkatSMA").flipBook({
-      pdfUrl:"../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SMA/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SMA.pdf",
+      pdfUrl:"../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai Antikorupsi Tingkat_SMA/Modul Penguatan Nilai Antikorupsi Tingkat_SMA.pdf",
       lightBox:true,
       lightBoxFullscreen:true,
       layout:3,
@@ -157,7 +157,7 @@ $(document).ready(function () {
 
   // R-ModulPenguatanNilai_NilaiAntikorupsiSD_MIKelas1_3
   $(".R-ModulPenguatanNilai_NilaiAntikorupsiSD_MIKelas1_3").flipBook({
-    pdfUrl:"../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/ModulPenguatanNilai_NilaiAntikorupsiSD_MI Kelas1_3/ModulPenguatanNilai_NilaiAntikorupsiSD_MI Kelas1_3.pdf",
+    pdfUrl:"../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai Antikorupsi SD Kelas1_3/Modul Penguatan Nilai Antikorupsi SD Kelas1_3.pdf",
     lightBox:true,
     lightBoxFullscreen:true,
     layout:3,

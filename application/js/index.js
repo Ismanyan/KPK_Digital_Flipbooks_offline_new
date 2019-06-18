@@ -596,7 +596,7 @@ $(document).ready(function () {
 
   // R-ModulPenguatanNilaiAntikorupsipadaSDKelas4-6
   $(".R-ModulPenguatanNilaiAntikorupsipadaSDKelas4-6").flipBook({
-    pdfUrl:"output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SD _ MI Kelas 4-6/Modul Penguatan Nilai-Nilai Antikorupsi pada Pendidikan dasar dan Menengah Tingkat SD _ MI Kelas 4-6.pdf",
+    pdfUrl:"output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Dasar dan Menengah/Modul Penguatan Nilai Antikorupsi SD Kelas 4_6/Modul Penguatan Nilai Antikorupsi SD_Kelas 4_6.pdf",
     lightBox:true,
     lightBoxFullscreen:true,
     layout:3,
@@ -627,7 +627,7 @@ $(document).ready(function () {
 
   // R-BukuPanduanDosenPembelajaranPendidikanAntiKorupsiUntukPerguruanTinggi
   $(".R-BukuPanduanDosenPembelajaranPendidikanAntiKorupsiUntukPerguruanTinggi").flipBook({
-    pdfUrl:"output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Buku Panduan Dosen Pembelajaran Pendidikan Anti Korupsi Untuk Perguruan Tinggi/Buku Panduan Dosen Pembelajaran Pendidikan Anti Korupsi Untuk Perguruan Tinggi.pdf",
+    pdfUrl:"output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Buku Panduan Dosen Pembelajaran Pendidikan Anti Korupsi/Buku Panduan Dosen Pembelajaran Pendidikan Anti Korupsi.pdf",
     lightBox:true,
     lightBoxFullscreen:true,
     layout:3,

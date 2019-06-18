@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   // R-BukuPanduanDosenPembelajaranPendidikanAntiKorupsiUntukPerguruanTinggi
   $(".R-BukuPanduanDosenPembelajaranPendidikanAntiKorupsiUntukPerguruanTinggi").flipBook({
-    pdfUrl:"../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Buku Panduan Dosen Pembelajaran Pendidikan Anti Korupsi Untuk Perguruan Tinggi/Buku Panduan Dosen Pembelajaran Pendidikan Anti Korupsi Untuk Perguruan Tinggi.pdf",
+    pdfUrl:"../output_pdf/Panduan Pendidikan Antikorupsi/Pendidikan Tinggi/Buku Panduan Dosen Pembelajaran Pendidikan Anti Korupsi/Buku Panduan Dosen Pembelajaran Pendidikan Anti Korupsi.pdf",
     lightBox:true,
     lightBoxFullscreen:true,
     layout:3,
